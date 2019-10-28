@@ -148,12 +148,12 @@ describe("basics", function() {
     describe("Set a property to undefined", function() {
         it("should run without errors", function() {
             const object = {
-                someProperty:undefined
+                someProperty: 1
             };
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            object.someProperty = undefined;
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
